@@ -9,6 +9,6 @@ menuIcon.addEventListener('click', () => {
 
 
 document.querySelector(".contact form").addEventListener("submit", function(event) {
-  event.preventDefault(); // يمنع إعادة تحميل الصفحة
-  this.reset(); // يمسح البيانات في الفورم
+  event.preventDefault();   
+  this.reset(); 
 });
